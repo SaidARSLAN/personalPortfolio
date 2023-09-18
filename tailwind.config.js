@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        pBlack : "#222831",
+        pGray : "#393E46",
+        pOrange : "#D65A31",
+        pWhite : "#EEEEEE",
+        pGradient : "#080808",
+      },
+    },
   },
   plugins: [],
 }
