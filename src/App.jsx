@@ -6,7 +6,7 @@ import {Hero,AboutMe,Contact,Projects} from './sections'
 function App() {
 
   return (
-    <main className='relative bg-pWhite'>
+    <main className='relative'>
       <Nav />
       <section className='py-24 px-12'>
         <Hero />
