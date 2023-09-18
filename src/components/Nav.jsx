@@ -18,7 +18,7 @@ const Nav = () => {
 
 
   return (
-        <header className='px-12 lg:px-36 py-9 w-full h-20'>
+        <header className='px-12 lg:px-36 pt-9 w-full h-12'>
             <nav className='flex w-full justify-between items-center'>
                 <div className='text-2xl  cursor-pointer font-inc font-bold bg-gradient-to-r bg-clip-text from-black to-pOrange text-transparent'>
                     Said ARSLAN
@@ -34,7 +34,7 @@ const Nav = () => {
                     <div className='w-[25px] h-[3px] bg-black group-hover:bg-pOrange duration-300'></div>
                 </div>
             </nav>
-            <ul className='w-2/5 lg:hidden flex flex-col max-h-0 overflow-hidden transition-all ease bg-pOrange justify-center items-center text-center float-right mt-2' ref={downRef}>
+            <ul className='w-2/5 lg:hidden flex flex-col max-h-0 overflow-hidden transition-all ease bg-pOrange justify-center items-center text-center float-right' ref={downRef}>
                 {navLinks.map((link) => {
                 return (<li className='text-pWhite font-roboto px-4 text-xs py-2 hover:bg-pWhite hover:text-pOrange duration-300 w-full cursor-pointer text-center'>{link}
                 </li>)
