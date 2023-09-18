@@ -18,7 +18,7 @@ const Nav = () => {
 
 
   return (
-        <header className='px-12 lg:px-36 pt-9 w-full h-12'>
+        <header className='px-12 lg:px-36 pt-9 w-full h-9'>
             <nav className='flex w-full justify-between items-center'>
                 <div className='text-2xl  cursor-pointer font-inc font-bold bg-gradient-to-r bg-clip-text from-black to-pOrange text-transparent'>
                     Said ARSLAN
