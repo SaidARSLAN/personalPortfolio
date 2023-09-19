@@ -10,7 +10,7 @@ import movie from '../assets/movieapp.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
 
-export const navLinks = ["Home","About Me","Projects","Contact Me"];
+export const navLinks = ["Home","About","Projects","Contact"];
 
 export {bootstrap,css,html,javascript,tailwind,react,question,desk,linkedin,github};
 

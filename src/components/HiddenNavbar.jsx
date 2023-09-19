@@ -15,7 +15,7 @@ const HiddenNavbar = () => {
                 <div className='absolute right-12 top-6 text-3xl font-bold font-roboto cursor-pointer text-pGray hover:text-pBlack duration-300' onClick={closeDownBar}>X</div>
                 <div className='flex flex-col items-center justify-center space-y-12 w-full h-full'>
                 {navLinks.map((link,idx) => {
-                return (<li key={idx} className='text-pBlack cursor-pointer hover:text-pOrange  duration-300 font-roboto text-3xl'>{link}
+                return (<li key={idx} className='text-pBlack cursor-pointer hover:text-pOrange  duration-300 font-poppins text-3xl'>{link}
                 </li>)
             })}
             </div>

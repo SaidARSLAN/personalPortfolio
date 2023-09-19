@@ -14,8 +14,8 @@ export default {
         pGradient : "#080808",
       },
       fontFamily : {
-        inc : ['Inclusive Sans', 'sans-serif'],
-        roboto : ['Roboto','sans-serif'], 
+        mulish : ['Mulish', 'sans-serif'],
+        poppins : ['Poppins','sans-serif'], 
       }
     },
   },
