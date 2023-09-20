@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
         <div className='flex flex-col items-center justify-center '>
         <div className='font-poppins text-xl text-pBlack my-1 lg:text-xl text-center lg:text-left'>{project.name}</div>
         <div className='font-mulish text-pGray text-sm my-1 lg:text-sm'>{project.date}</div>
-        <div className='font-mulish font-semibold text-sm tracking-wider my-1 text-gray-500 lg:text-sm lg:w-11/12'>{project.explanation}</div>
+        <div className='font-mulish font-semibold text-sm tracking-wider my-1 text-gray-500 lg:text-sm lg:w-11/12 text-center lg:text-left'>{project.explanation}</div>
         <div className='flex w-full items-center justify-evenly my-2'>
         <div className=' px-4 py-2 rounded-xs font-poppins text-lg  text-pBlack shadow-xl border-gray-300'>{project.techone}</div>
         <div className='px-4 py-2 rounded-xs font-poppins text-lg  text-pBlack shadow-xl border-gray-300'>{project.techtwo}</div>
