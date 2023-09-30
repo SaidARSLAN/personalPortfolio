@@ -22,7 +22,9 @@ export const projects = [
     date : "February 2023",
     explanation : "I've launched a movie website using React, Axios, Context API, and Tailwind CSS. It's designed with Colorhunt's best color choices for a great first impression. I'm planning to upgrade to version 2 by integrating a ChatGPT-based movie recommendation system.",
     techone : "React",
-    techtwo : "Tailwind"
+    techtwo : "Tailwind",
+    github : "https://github.com/SaidARSLAN/movieMinds",
+    demo : "https://moviesmind.netlify.app/"
     },
     {
         image : foodmap,
@@ -30,6 +32,8 @@ export const projects = [
         date : "February 2023",
         explanation : "I created food selling website using React, Context API and Tailwind.CSS. It's designed my choice's colors. There are a lot of functionalities in this app. Currently I keep developing this website",
         techone : "React",
-        techtwo : "Tailwind"
-    }
+        techtwo : "Tailwind",
+        github : "https://github.com/SaidARSLAN/restaurantMenu",
+        demo : "https://cocafood.netlify.app/"
+    },
 ]

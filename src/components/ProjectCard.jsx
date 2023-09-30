@@ -13,8 +13,8 @@ const ProjectCard = ({project}) => {
         <div className='px-4 py-2 rounded-xs font-poppins text-lg  text-pBlack shadow-xl border-gray-300'>{project.techtwo}</div>
         </div>
         <div className='flex w-full justify-evenly mt-6 lg:items-start lg:justify-start lg:space-x-4'>
-            <a href="https://github.com/SaidARSLAN/movieMinds" className='bg-pWhite text-pOrange rounded-md font-poppins max-[400px]:text-sm px-4 py-2 text-lg hover:bg-pOrange hover:text-pWhite duration-300'>Github</a>
-            <a href="https://moviesmind.netlify.app/" className='bg-pWhite text-pOrange rounded-md font-poppins max-[400px]:text-sm px-4 py-2 text-lg hover:bg-pOrange hover:text-pWhite duration-300'>Live Demo</a>
+            <a href={project.github} className='bg-pWhite text-pOrange rounded-md font-poppins max-[400px]:text-sm px-4 py-2 text-lg hover:bg-pOrange hover:text-pWhite duration-300'>Github</a>
+            <a href={project.demo} className='bg-pWhite text-pOrange rounded-md font-poppins max-[400px]:text-sm px-4 py-2 text-lg hover:bg-pOrange hover:text-pWhite duration-300'>Live Demo</a>
         </div>
         </div>
     </div>
