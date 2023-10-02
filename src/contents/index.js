@@ -10,12 +10,25 @@ import movie from '../assets/movieapp.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
 import foodmap from '../assets/foodmap.png';
+import personalfirst from '../assets/personalfirst.png'
+import tracking from '../assets/tracking.png'
 export const navLinks = ["Home","About","Projects","Contact"];
 
 export {bootstrap,css,html,javascript,tailwind,react,question,desk,linkedin,github,foodmap};
 
 
 export const projects = [
+    {
+        image : tracking,
+        name : "Stock Market Tracking System",
+        date : "October 2023",
+        explanation : "I created a tracking budget system with React, Axios, Context API and Tailwind CSS. For design I solve UI/UX problems.Currently I am improving this app.",
+        techone : "React",
+        techtwo : "Tailwind",
+        github : "",
+        demo :"",
+    }
+    ,
     {
     image : movie,
     name: "Movie Recommendation Application",
@@ -36,4 +49,14 @@ export const projects = [
         github : "https://github.com/SaidARSLAN/restaurantMenu",
         demo : "https://cocafood.netlify.app/"
     },
+    {
+        image:personalfirst,
+        name : "Personal Portfolio First",
+        date : "May 2023",
+        explanation : "I created first portfolio with Vanilla JS and Vanilla CSS. This one was my first experience build website from zero. I use some javascript and css animations which are I created",
+        techone : "Vanilla JS",
+        techtwo : "Vanilla CSS",
+        github : "https://github.com/SaidARSLAN",
+        demo : "https://saidarslan.netlify.app/",
+    }
 ]
