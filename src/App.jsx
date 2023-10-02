@@ -19,7 +19,7 @@ function App() {
       <section className='py-12 lg:py-32 px-12  bg-white'>
           <AboutMe />
       </section>
-      <section className='py-12 lg:py-24 lg:px-60  px-12 bg-pWhite'>
+      <section className='py-12 lg:py-24 lg:px-60  px-12 bg-pWhite '>
         <Projects />
       </section>
       <section className='py-24 px-12 bg-White'>
