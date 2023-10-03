@@ -25,8 +25,8 @@ export const projects = [
         explanation : "I created a tracking budget system with React, Axios, Context API and Tailwind CSS. For design I solve UI/UX problems.Currently I am improving this app.",
         techone : "React",
         techtwo : "Tailwind",
-        github : "",
-        demo :"",
+        github : "https://github.com/SaidARSLAN/stockTrackingSystem",
+        demo :"https://stking.netlify.app/",
     }
     ,
     {
